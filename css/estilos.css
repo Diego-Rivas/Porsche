@@ -1,45 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gunjala+Gondi:wght@400..700&display=swap');
 
-header {
-    background-color: #BAD8B6;
-    text-align: center;
-}
-
-header img {
-    width: 180px;
-}
 nav {
-    background-color: #BAD8B6;
+    background-color:black;
     display: flex;
     justify-content: space-around;
     align-items: end;
     padding: 30px;
     font-size: 20px;
 }
-nav:hover {
-    color:  #BAD8B6;
-}
 nav a {
    text-decoration: none;
-   color: #A5B68D;
+   color: white;
 }
 body {
-    background-color: #E1EACD;
+    background-color: #D84040;
     margin: 0px;
     padding: 0px;
- 
-}
-.pie {
-    background-color: #C1CFA1;
-    text-align: center;
-    padding: 50px;
 }
 .fondo {
-    background-image: url(../img/fondo.jpg);
-    padding: 250px;
+    background-image: url(../img/fondo\ porsche.jpg);
+    padding: 300px;
 }
 .fondito {
     text-align: center;
+    margin-bottom: 380px;
+    margin-top: -300px;
+    font-size: 30px;
+}
+.texto {
+    text-align: center;
+}
+.cuadro {
+    background-color: black;
+    text-align: center;
+    padding: 80px;
+    color: white;
+    font-size: 30px;
+}
+.featured-classes {
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.featured-classes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.class-card {
+    background: #A31D1D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align:justify;
+    width: 300px;
+}
+.class-card img {
+    width: 100%;
 }
 .boton {
     border-radius: 10px;
@@ -55,4 +72,10 @@ body {
 .botoncito {
     text-align: center;
     padding: 40px;
+}
+.pie {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color:white;
 }
