@@ -1,83 +1,80 @@
+nav {
+   background-color:black;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+   padding: 30px;
+   font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
- }
- header {
-    position: relative;
-    text-align: center;
-    color: white;
- }
- .header-image {
-    width: 100%;
-    height: auto;
- }
- h1 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 36px;
- }
- nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: black;
-    display: flex;
-    justify-content: center;
- }
- nav ul li {
-    margin: 0 20px;
- }
- nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: inline-block;
- }
- .catalogo {
-    background-color: #b30000;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    /*Hola esta es una p*/
- }
- .vehiculo {
-    background-color: white;
-    color: black;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 500px;
-    border-radius: 10px;
- }
- .car-image {
-    width: 100%;
-    border-radius: 10px;
- }
- .detalles {
-    text-align: left;
- }
- button {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    display: block;
-    margin: 10px auto;
- }
- button:hover {
-    background-color: #333;
- }
- footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
- }
- footer a {
-    color: white;
-    text-decoration: none;
- }
+   background-color: #D84040;
+   margin: 0px;
+   padding: 0px;
+}
+.fondo {
+   background-image: url(../img/fondo\ porsche.jpg);
+   padding: 300px;
+}
+.fondito {
+   text-align: center;
+   margin-bottom: 380px;
+   margin-top: -300px;
+   font-size: 30px;
+}
+.texto {
+   text-align: center;
+}
+.cuadro {
+   background-color: black;
+   text-align: center;
+   padding: 80px;
+   color: white;
+   font-size: 30px;
+}
+.featured-classes {
+   text-align: center;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 10px;
+}
+.featured-classes {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.class-card {
+   background: #A31D1D;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   text-align:justify;
+   width: 300px;
+}
+.class-card img {
+   width: 100%;
+}
+.boton {
+   border-radius: 10px;
+   background-color: #BAD8B6;
+   color: beige;
+   border: 0px;
+   padding: 20px;
+}
+.boton a {
+   text-decoration: none;
+   color: black;
+}
+.botoncito {
+   text-align: center;
+   padding: 40px;
+}
+.pie {
+   background-color: black;
+   text-align: center;
+   padding: 50px;
+   color:white;
+}
