@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+ }
+ header {
+    position: relative;
+    text-align: center;
+    color: white;
+ }
+ .header-image {
+    width: 100%;
+    height: auto;
+ }
+ h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+ }
+ nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+ nav ul li {
+    margin: 0 20px;
+ }
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+ }
+ .catalogo {
+    background-color: #b30000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+ }
+ .vehiculo {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+ }
+ .car-image {
+    width: 100%;
+    border-radius: 10px;
+ }
+ .detalles {
+    text-align: left;
+ }
+ button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+ }
+ button:hover {
+    background-color: #333;
+ }
+ footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
+ footer a {
+    color: white;
+    text-decoration: none;
+ }
