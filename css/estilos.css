@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gunjala+Gondi:wght@400..700&display=swap');
+
+header {
+    background-color: #BAD8B6;
+    text-align: center;
+}
+
+header img {
+    width: 180px;
+}
+nav {
+    background-color: #BAD8B6;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 30px;
+    font-size: 20px;
+}
+nav:hover {
+    color:  #BAD8B6;
+}
+nav a {
+   text-decoration: none;
+   color: #A5B68D;
+}
+body {
+    background-color: #E1EACD;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.pie {
+    background-color: #C1CFA1;
+    text-align: center;
+    padding: 50px;
+}
+.fondo {
+    background-image: url(../img/fondo.jpg);
+    padding: 250px;
+}
+.fondito {
+    text-align: center;
+}
+.boton {
+    border-radius: 10px;
+    background-color: #BAD8B6;
+    color: beige;
+    border: 0px;
+    padding: 20px;
+}
+.boton a {
+    text-decoration: none;
+    color: black;
+}
+.botoncito {
+    text-align: center;
+    padding: 40px;
+}
