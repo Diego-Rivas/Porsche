@@ -25,56 +25,72 @@ body {
    margin-top: -300px;
    font-size: 30px;
 }
-.texto {
-   text-align: center;
-}
-.cuadro {
-   background-color: black;
-   text-align: center;
-   padding: 80px;
-   color: white;
-   font-size: 30px;
-}
-.featured-classes {
-   text-align: center;
-   padding: 50px;
-   margin: 20px;
-   border-radius: 10px;
-}
-.featured-classes {
+.destacado {
    display: flex;
    justify-content: center;
-   gap: 20px;
+   flex-direction: row;
 }
-.class-card {
-   background: #A31D1D;
+.tarjeta {
+   text-align:center;
+   margin-top: 45px;
+   font-size: 20px;
+}
+.mapa {
+   width: 500px; 
    padding: 20px;
-   border-radius: 10px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-   text-align:justify;
-   width: 300px;
-}
-.class-card img {
-   width: 100%;
-}
-.boton {
-   border-radius: 10px;
-   background-color: #BAD8B6;
-   color: beige;
-   border: 0px;
-   padding: 20px;
-}
-.boton a {
-   text-decoration: none;
-   color: black;
-}
-.botoncito {
-   text-align: center;
-   padding: 40px;
 }
 .pie {
    background-color: black;
    text-align: center;
    padding: 50px;
    color:white;
+}
+
+@media (max-width: 768px) {
+   nav {
+       flex-direction:row;
+       font-size: 15px
+   }
+
+   .fondo {
+       background-image: url(../img/fondo\ porsche.jpg); 
+       padding: 150px;
+   }
+
+   .fondito {
+       margin-top: -100px; 
+       margin-bottom: 200px;
+       font-size: 25px;
+   }
+
+   .cuadro {
+       padding: 50px; 
+       font-size: 25px;
+   }
+
+   .featured-classes {
+       flex-direction: column; 
+       padding: 20px;
+   }
+
+   .class-card {
+       width: 90%; 
+       margin: 10px auto; 
+   }
+
+   .boton {
+       padding: 15px;
+   }
+
+   .botoncito {
+       padding: 20px;
+   }
+   .mapa {
+      height: auto;
+      width: 100%;
+      padding: 20px;
+   }
+   .pie {
+       padding: 30px;
+   }
 }

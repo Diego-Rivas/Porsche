@@ -20,29 +20,23 @@ body {
     transform: translate(-50%, -50%);
     font-size: 36px;
  }
- nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: black;
-    display: flex;
-    justify-content: center;
- }
- nav ul li {
-    margin: 0 20px;
- }
- nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: inline-block;
- }
+ nav {
+   background-color:black;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+   padding: 30px;
+   font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
  .catalogo {
     background-color: #b30000;
     color: white;
     padding: 20px;
     text-align: center;
-    /*Hola esta es una p*/
  }
  .vehiculo {
     background-color: white;
@@ -81,3 +75,48 @@ body {
     color: white;
     text-decoration: none;
  }
+ @media (max-width: 768px) {
+   nav {
+       flex-direction:row;
+       font-size: 15px
+   }
+
+   .fondo {
+       background-image: url(../img/fondo\ porsche.jpg); 
+       padding: 150px;
+   }
+
+   .fondito {
+       margin-top: -100px; 
+       margin-bottom: 200px;
+       font-size: 25px;
+   }
+
+   .cuadro {
+       padding: 50px; 
+       font-size: 25px;
+   }
+
+   .featured-classes {
+       flex-direction: column; 
+       padding: 20px;
+   }
+
+   .class-card {
+       width: 90%; 
+       margin: 10px auto; 
+   }
+
+   .boton {
+       padding: 15px;
+   }
+
+   .botoncito {
+       padding: 20px;
+   }
+
+   .pie {
+       padding: 30px;
+   }
+}
+
